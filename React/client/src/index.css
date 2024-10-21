@@ -1,0 +1,97 @@
+input{
+  border-radius: 2px !important;
+  border:1px solid rgb(156, 134, 134) !important;
+  height: 40px;
+  
+}
+input:focus,.ant-picker{
+  outline: none;
+  box-shadow: none;
+  border:1px solid gray;
+}
+.page-title{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.card-title{
+  font-size:22px;
+  font-weight: bold;
+  color:black
+}
+.normal-text{
+  font-size: 1rem;
+}
+.card{
+  box-shadow: 0 0 2px grey;
+  border-radius: 0;
+}
+.ant-picker-input input{
+  border:none !important;
+
+}
+.ant-input-affix-wrapper{
+  border:none !important;
+}
+.ant-picker{
+  height: 40px;
+  border-radius: 2px;
+  border:1px solid gray;
+}
+.authentication{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 35, 111);
+}
+.authentication-form{
+  width: 400px;
+}
+.primary-button{
+  background-color:rgb(67, 35, 111);
+  border-color:rgb(67, 35, 111);
+  height:40px;
+  width: 100%;
+  color:white;
+  font-size:16px;
+  width:max-content !important;
+}
+.anchor{
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.anchor-hover{
+  text-decoration: underline;
+}
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color:black;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 9999;
+
+}
+.spinner-border{
+  width: 5rem;
+  height: 5rem;
+  color:white;
+}
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgb(46, 44, 36);
+  color:white;
+  max-width: max-content;
+  padding:7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+
+}
